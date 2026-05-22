@@ -10,5 +10,5 @@ def contvoc(tex, x=0):
         return (1 if tex[x] in "AeioU" else 0) + contvoc(tex, x+1) 
 
 
-res = input("Ingrese palabra a comntar vocales minusculas")
+res = input("Ingrese palabra a contar vocales minusculas")
 print(contvoc(res)) #1
